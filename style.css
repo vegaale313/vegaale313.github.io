@@ -162,6 +162,23 @@ footer {
 .project-card h3 { font-size: 1.05rem; margin-bottom: 0.25rem; }
 .project-card p:last-child { margin-top: 0.5rem; color: var(--text); font-size: 0.95rem; }
 
+.btn-download {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.4rem;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.btn-download:hover {
+  opacity: 0.85;
+}
+
 @media (max-width: 700px) {
   .nav-links {
     position: absolute;
